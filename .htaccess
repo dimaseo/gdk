@@ -6,6 +6,7 @@ RewriteRule ^index.html$ / [QSA,R]
 RewriteCond %{HTTP_HOST} ^www.web-expert.esy.es\.com$ [NC]
 RewriteRule ^(.*)$ http://web-expert.esy.es/$1 [R=301,L]
 
+#Redirect for ended of file
 RewriteEngine on
 RewriteBase /
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.html\ HTTP
