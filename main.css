@@ -11,4 +11,5 @@
 .li_under_div_in_header:hover{
 	text-decoration: underline;
 	text-transform: none;
+	text-indent: inherit;
 }
